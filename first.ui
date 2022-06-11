@@ -1,0 +1,3317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1053</width>
+    <height>457</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>sid</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #6B6BA0</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="Line" name="line_23">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>50</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>10</y>
+      <width>251</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sitka Text</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    color: #000000;
+    border-radius: 5px;
+    padding: 7px;
+	background: #C965FF;
+    }
+</string>
+    </property>
+    <property name="text">
+     <string>SSJ-100</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="Line" name="line_19">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>50</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_15">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>400</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_26">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>400</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_13">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>400</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>1031</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 85, 127)</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="Line" name="line">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>0</y>
+       <width>16</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="Line" name="line_2">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>220</y>
+       <width>20</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="Line" name="line_3">
+     <property name="geometry">
+      <rect>
+       <x>690</x>
+       <y>0</y>
+       <width>16</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="Line" name="line_4">
+     <property name="geometry">
+      <rect>
+       <x>690</x>
+       <y>220</y>
+       <width>20</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="Line" name="line_5">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>220</y>
+       <width>20</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="Line" name="line_6">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>220</y>
+       <width>20</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="Line" name="line_7">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>0</y>
+       <width>16</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="Line" name="line_8">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>0</y>
+       <width>16</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>290</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>8</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>  Exit</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>10</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>8</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>  Exit</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>10</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>8</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>  Exit</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>290</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>8</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>  Exit</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_c5">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>220</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>C5</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_a5">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>280</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>A5</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_c6">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>220</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>C6</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_a6">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>280</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>A6</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_c7">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>220</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>C7</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_a7">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>280</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>A7</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_f5">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>10</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>F5</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_e5">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>70</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>E5</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_f6">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>10</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>F6</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_e6">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>70</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+    </string>
+     </property>
+     <property name="text">
+      <string>E6</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_f7">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>10</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>F7</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_e7">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>70</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>E7</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_f4">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>10</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>F4</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_e4">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>70</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>E4</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_f3">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>10</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>F3</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_e3">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>70</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>E3</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_f2">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>10</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>F2</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_e2">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>70</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>E2</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_f1">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>10</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>F1</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_e1">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>70</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>E1</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_c1">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>220</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>C1</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_a1">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>280</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>A1</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_c2">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>220</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>C2</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_a2">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>280</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>A2</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_c3">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>220</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>C3</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_a3">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>280</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>A3</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_c4">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>220</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>C4</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_a4">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>280</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>A4</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_f11">
+     <property name="geometry">
+      <rect>
+       <x>970</x>
+       <y>10</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>F11</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_e11">
+     <property name="geometry">
+      <rect>
+       <x>970</x>
+       <y>70</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>E11</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_f10">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>10</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>F10</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_e10">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>70</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>E10</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_f9">
+     <property name="geometry">
+      <rect>
+       <x>810</x>
+       <y>10</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>F9</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_e9">
+     <property name="geometry">
+      <rect>
+       <x>810</x>
+       <y>70</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>E9</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_f8">
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>10</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>F8</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_e8">
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>70</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>E8</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_c8">
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>220</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>C8</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_a8">
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>280</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>A8</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_c9">
+     <property name="geometry">
+      <rect>
+       <x>810</x>
+       <y>220</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>C9</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_a9">
+     <property name="geometry">
+      <rect>
+       <x>810</x>
+       <y>280</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>A9</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_c10">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>220</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>C10</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_a10">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>280</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>A10</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_c11">
+     <property name="geometry">
+      <rect>
+       <x>970</x>
+       <y>220</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>C11</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_a11">
+     <property name="geometry">
+      <rect>
+       <x>970</x>
+       <y>280</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>A11</string>
+     </property>
+    </widget>
+    <widget class="Line" name="line_21">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>-10</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="Line" name="line_27">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>-10</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_d1">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>130</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>D1</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_d2">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>130</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>D2</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_d3">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>130</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>D3</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_d4">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>130</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>D4</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_d5">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>130</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>D5</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_d6">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>130</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>D6</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_d7">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>130</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>D7</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_d8">
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>130</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>D8</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_d9">
+     <property name="geometry">
+      <rect>
+       <x>810</x>
+       <y>130</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>D9</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_d10">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>130</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>D10</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seat_d11">
+     <property name="geometry">
+      <rect>
+       <x>970</x>
+       <y>130</y>
+       <width>51</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Text</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+     </property>
+     <property name="text">
+      <string>D11</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="Line" name="line_9">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>400</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_10">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>400</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_25">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>50</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_28">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>50</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_17">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>50</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_18">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>50</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_16">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>400</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_11">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>400</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_22">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>50</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_20">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>50</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_24">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>400</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>30</y>
+      <width>21</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>21</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #BB0000, stop: 1 #DE0000
+        );
+    padding: 7px;
+    }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>30</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sitka Text</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>- свободно</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>51</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sitka Text</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>- занято</string>
+    </property>
+   </widget>
+   <zorder>line_28</zorder>
+   <zorder>line_20</zorder>
+   <zorder>line_18</zorder>
+   <zorder>line_17</zorder>
+   <zorder>line_16</zorder>
+   <zorder>line_24</zorder>
+   <zorder>line_11</zorder>
+   <zorder>line_10</zorder>
+   <zorder>line_9</zorder>
+   <zorder>line_22</zorder>
+   <zorder>line_25</zorder>
+   <zorder>line_23</zorder>
+   <zorder>label</zorder>
+   <zorder>line_19</zorder>
+   <zorder>line_15</zorder>
+   <zorder>line_26</zorder>
+   <zorder>line_13</zorder>
+   <zorder>frame</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_8</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1053</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

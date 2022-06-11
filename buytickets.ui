@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>495</width>
+    <height>363</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BuyTickets</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #6B6BA0</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>91</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sitka Text</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    color: #000000;
+    border-radius: 5px;
+    padding: 7px;
+	background: #C965FF;
+    }</string>
+    </property>
+    <property name="text">
+     <string>Откуда:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>91</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sitka Text</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    color: #000000;
+    border-radius: 5px;
+    padding: 7px;
+	background: #C965FF;
+    }</string>
+    </property>
+    <property name="text">
+     <string>Куда:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>10</y>
+      <width>391</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sitka Text</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    color: #000000;
+    border-radius: 5px;
+    padding: 7px;
+	background: #C965FF;
+    }</string>
+    </property>
+    <property name="text">
+     <string>Покупка билета</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="choose">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>280</y>
+      <width>471</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sitka Text</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    color: #000000;
+    border: 2px solid #908B81;
+    border-radius: 15px;
+    border-style: outset;
+    background: qradialgradient(
+        cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+        radius: 1, stop: 0 #E8E3D9, stop: 1 #635E54
+        );
+    padding: 7px;
+    }
+
+QPushButton:hover {
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1, stop: 0 #E1E129, stop: 1 #777716
+        );
+    }</string>
+    </property>
+    <property name="text">
+     <string>Следующий шаг</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="depart">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>61</y>
+      <width>351</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+    color: #000000;
+    border-radius: 5px;
+    padding: 7px;
+	background: #C965FF;
+    }</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="arrival">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>111</y>
+      <width>351</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+    color: #000000;
+    border-radius: 5px;
+    padding: 7px;
+	background: #C965FF;
+    }</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>91</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sitka Text</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    color: #000000;
+    border-radius: 5px;
+    padding: 7px;
+	background: #C965FF;
+    }</string>
+    </property>
+    <property name="text">
+     <string>Дата:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>160</y>
+      <width>351</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QComboBox" name="day">
+       <property name="styleSheet">
+        <string notr="true">QComboBox {
+    color: #000000;
+    border-radius: 5px;
+    padding: 7px;
+	background: #C965FF;
+    }</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="month">
+       <property name="styleSheet">
+        <string notr="true">QComboBox {
+    color: #000000;
+    border-radius: 5px;
+    padding: 7px;
+	background: #C965FF;
+    }</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="year">
+       <property name="styleSheet">
+        <string notr="true">QComboBox {
+    color: #000000;
+    border-radius: 5px;
+    padding: 7px;
+	background: #C965FF;
+    }</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>210</y>
+      <width>91</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sitka Text</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    color: #000000;
+    border-radius: 5px;
+    padding: 7px;
+	background: #C965FF;
+    }</string>
+    </property>
+    <property name="text">
+     <string>Время:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="time">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>210</y>
+      <width>91</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+    color: #000000;
+    border-radius: 5px;
+    padding: 7px;
+	background: #C965FF;
+    }</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>210</y>
+      <width>91</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sitka Text</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    color: #000000;
+    border-radius: 5px;
+    padding: 7px;
+	background: #C965FF;
+    }</string>
+    </property>
+    <property name="text">
+     <string>Цена:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="price">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>210</y>
+      <width>91</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    color: #000000;
+    border-radius: 5px;
+    padding: 7px;
+	background: #C965FF;
+    }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>495</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
