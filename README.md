@@ -12,6 +12,6 @@ Python + PyQT, SQLite
 
 ## How to get started?
 Run the file:
-'''
+```
 project QT.py
-'''
+```
